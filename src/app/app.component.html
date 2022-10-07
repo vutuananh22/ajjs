@@ -1,3 +1,26 @@
 <login></login>
-<hr>
 <register></register>
+<header class="section header">
+  <div class="container">
+
+  </div>
+</header>
+<nav class="section navigation">
+  <div class="container">
+    <a routerLink="/" class="btn btn-primary m-2">Login</a>
+    <a routerLink="/register" class="btn btn-warning">Register</a>
+    <a routerLink="/thoitiet" class="btn btn-group">Thời Tiết</a>
+  </div>
+</nav>
+<section class="section main">
+  <div class="container">
+    <div class="row">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</section>
+<footer class="section footer">
+  <div class="container">
+  </div>
+</footer>
+
